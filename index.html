@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio - Renato</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- ===== NAVBAR ===== -->
+        <div id="navBar" class="navBar">
+            <h1>Meu Portfólio</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact">Contato</a>
+            </nav>
+        </div>
+
+        <!-- ===== SOBRE MIM ===== -->
+        <section id="about" class="abouteMe">
+            <h2>Sobre Mim</h2>
+            <div class="imgText">
+                <picture>
+                    <img src="img/about-img.png" alt="Minha Foto">
+                </picture>
+                <p>
+                    Oi! Eu sou o Renato, Desenvolvedor Front-End Júnior e Designer UX/UI. Minha história começou cedo,
+                    lá
+                    pelos 7 anos,
+                    quando descobri a paixão pelo desenho — desde então nunca mais larguei o mundo criativo. Com o
+                    tempo,
+                    expandi minhas
+                    habilidades para o design digital, trabalhando com ferramentas como CorelDRAW, Photoshop, Canva,
+                    Figma e
+                    Procreate.
+                    Hoje, além de criar identidades visuais e artes digitais, também me dedico a transformar ideias em
+                    experiências digitais
+                    modernas, responsivas e intuitivas com HTML, CSS e JavaScript. Gosto de unir criatividade e
+                    tecnologia
+                    para entregar
+                    interfaces que sejam bonitas, funcionais e fáceis de usar.
+                    O que mais me move é aprender sempre, acompanhar as tendências e adaptar meu trabalho para cada
+                    desafio
+                    — seja criando
+                    um logotipo, prototipando um site ou desenvolvendo uma aplicação do zero.</p>
+            </div>
+        </section>
+
+        <!-- ===== PROJETOS ===== -->
+        <section id="projects" class="myProjects">
+            <h2>Meus Projetos</h2>
+            <div class="projects-grid">
+                <!-- Card 1 -->
+                <div class="project-card">
+                    <h3>Hotel Fazenda Florianópolis</h3>
+                    <p>Website de hospedagem com layout moderno e intuitivo.</p>
+                    <a href="https://vercel.com/crow7077s-projects/hotel-fazenda-florianopolis" target="_blank">Ver
+                        Projeto</a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="project-card">
+                    <h3>Rifa Fácil</h3>
+                    <p>Plataforma para gestão de rifas online, simples e rápida.</p>
+                    <a href="https://vercel.com/crow7077s-projects/rifa-facil" target="_blank">Ver Projeto</a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="project-card">
+                    <h3>Portfólio UX/UI</h3>
+                    <p>Protótipos e interfaces criadas no Figma para diferentes clientes.</p>
+                    <a href="https://www.behance.net/gallery/207003979/Portfolio" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTATO ===== -->
+        <section id="contact" class="contactMe">
+            <h2>Entre em Contato</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Seu nome" required>
+                <input type="email" id="email" placeholder="Seu e-mail" required>
+                <textarea id="message" rows="5" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+
+            <!-- Aqui aparece a mensagem depois do envio -->
+            <p id="formMessage" style="margin-top:1rem; color:green;"></p>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer>
+            <p>&copy; 2025 - Renato Nunes Junior | Desenvolvedor Front-End & UX/UI Designer</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
