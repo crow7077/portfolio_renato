@@ -60,13 +60,13 @@ nav a:hover {
 
 /* ===== HOME ===== */
 
-.home{
+.home {
     width: 100%;
     height: auto;
 }
 
 .home p {
-    margin-top: 100px;
+    margin-top: 110px;
     font-size: 10rem;
     line-height: 180px;
     font-weight: 900;
@@ -139,6 +139,27 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+}
+
+.project-card a {
+    padding-top: 15px;
+    display: block;
+    align-self: flex-end;
+}
+
+.project-card button {
+    width: 100px;
+    height: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    background: #ffa600;
+}
+
+.project-card button:hover {
+    transform: scale(1.1);
+    background: #383838;
+    color: #ffa600;
 }
 
 .project-card {
@@ -214,8 +235,8 @@ footer {
     margin-bottom: 10px;
     border-radius: 10px;
     text-align: center;
-    padding: 1rem;
+    padding: 3rem;
     background-color: #222;
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
